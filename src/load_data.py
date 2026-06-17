@@ -11,8 +11,8 @@ load_dotenv(env_path)
 user = getenv('user')
 password = getenv('password')
 database = getenv('database')
-# host = 'host.docker.internal'
-host = 'localhost'
+host = 'host.docker.internal'
+# host = 'localhost'
 
 def get_engine():
     print('conectando com o banco...')
